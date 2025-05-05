@@ -1,0 +1,142 @@
+:root {
+  --white: #ffffff;
+}
+.container {
+  width: 1431px;
+  padding: 0 15px;
+  margin: 0 auto;
+  outline: solid red;
+}
+.hero {
+  background-image: url(../images/font\ header.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.nav {
+  padding: 55px 717px 71px 156px;
+}
+.list-header {
+  display: flex;
+  gap: 20px;
+}
+.item-nav {
+  font-family: "inter";
+  font-weight: 200;
+  color: var(--white);
+  line-height: 100%;
+}
+.h1-header {
+  font-family: "Inter";
+  font-weight: 200;
+  font-size: 70px;
+  color: var(--white);
+  padding: 71px 724px 22px 146px;
+}
+.text {
+  font-family: "Inter";
+  font-weight: 300;
+  font-size: 21px;
+  color: var(--white);
+  line-height: 100%;
+  padding: 0px 700px 33px 160px;
+}
+.button {
+  width: 207px;
+  height: 57px;
+  border-radius: 17px;
+  background-color: #b47b48;
+  margin: 0px 1067px 125px 157px;
+}
+.a-button {
+  font-family: "Inter";
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: var(--white);
+}
+.list-hero {
+  display: flex;
+}
+.item-hero {
+  background-color: #272727;
+}
+.item-hero:nth-child(1) {
+  display: flex;
+  justify-content: space-between;
+  width: 310px;
+  height: 225px;
+  margin: 0px 104px 36px 104px;
+}
+.item-hero:nth-child(2) {
+  display: flex;
+  justify-content: space-between;
+  width: 350px;
+  height: 225px;
+}
+.item-hero:nth-child(3) {
+  display: flex;
+  justify-content: space-between;
+  width: 350px;
+  height: 225px;
+  margin: 0px 75px 36px 120px;
+}
+.item-hero:nth-child(1)::before {
+  content: "";
+  width: 162px;
+  height: 225px;
+  display: block;
+  background-image: url(../images/cookie.png);
+  background-color: #272727;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.item-hero:nth-child(2)::before {
+  content: "";
+  width: 250px;
+  height: 225px;
+  display: block;
+  background-image: url(../images/croissan.png);
+  background-color: #272727;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.item-hero:nth-child(3)::before {
+  content: "";
+  width: 199px;
+  height: 225px;
+  display: block;
+  background-image: url(../images/tarte.png);
+  background-color: #272727;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.h4-hero {
+  font-family: "Inter";
+  font-weight: 200;
+  font-size: 24px;
+  line-height: 100%;
+  text-align: center;
+  color: var(--white);
+}
+.p-hero {
+  text-align: center;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  color: var(--white);
+}
+.btn {
+  width: 79px;
+  height: 34px;
+  display: block;
+  font-family: "Inter";
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 100%;
+  background-color: #c85312;
+}
+.btn > a {
+  color: var(--white);
+}
